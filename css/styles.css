@@ -15,15 +15,20 @@ body {
   height: 100vh;
 }
 
+/* make the skills page fill screen vertically
+#features {
+  height: 100vh;
+} */
+
 /* Make the main buttons larger */
-#mainButtons > button {
+#mainButtons > button, #mainButtons > a {
   height: 50px;
   width: 120px;
 }
 
 /* Raise projects title up */
 body > section:nth-child(4) > div > div.text-center.mb-5 > h1 {
-    margin-top: -25px;
+    margin-top: -38px;
 }
 
 /* Stop da canvas from glowin */
