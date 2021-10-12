@@ -11,8 +11,17 @@ body {
   text-align: center;
 }
 
-/* Raise projects title up */
+#mainHeader {
+  height: 100vh;
+}
 
+/* Make the main buttons larger */
+#mainButtons > button {
+  height: 50px;
+  width: 120px;
+}
+
+/* Raise projects title up */
 body > section:nth-child(4) > div > div.text-center.mb-5 > h1 {
     margin-top: -25px;
 }
@@ -27,9 +36,9 @@ canvas {
   text-align: center;
 }
 
-#mainHeader > div.container > div > div {
+/* #mainHeader > div.container > div > div {
   padding-bottom: 5px;
-}
+} */
 
 .progress-container {
   height: 0.8rem;
